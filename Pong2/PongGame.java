@@ -5,8 +5,9 @@ import javax.swing.*;
 
 public class PongGame{
 
-public void main(string[]args){
-    Gameframe frame = new GameFrame();
+public void main(String[]args){
+
+    GameFrame frame = new GameFrame();
 }
 
 }

@@ -5,11 +5,18 @@ import javax.swing.*;
 
 public class Paddle extends Rectangle{
 
-    Paddle(){
+    int id;
+    int yVelocity;
 
+    Paddle(int x, int y, int PADDLE_WIDTH, int PADDLE_HEIGHT, int id){
+        super(x, y, PADDLE_WIDTH, PADDLE_HEIGHT, id);
+        this.id = id;
     }
 
-    public void keyPressed(KeyEvent e){
+    public Paddle(int i, int j, int k, int paddleWidth, int paddleHeight, int l) {
+	}
+
+	public void keyPressed(KeyEvent e){
 
     }
 
